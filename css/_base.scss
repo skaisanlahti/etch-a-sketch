@@ -1,0 +1,64 @@
+/*=== Basic Global Styles ===
+=============================================================================*/
+body {
+    font: 16px raleway;
+}
+
+body, select, input, textarea {
+    color:hsl(25,5%,10%);
+}
+
+a {
+    color: hsl(200,50%,40%);
+
+    &:hover {
+        color: hsl(200,50%,60%);
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+::-moz-selection, ::selection{
+    background: #fcd700;
+    color: #fff;
+    text-shadow: none;
+}
+
+a:link {
+    -webkit-tap-highlight-color: #fcd700;
+}
+
+ins {
+    background-color: #fcd700;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #fcd700;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input:-moz-placeholder {
+    color:#a9a9a9;
+}
+
+textarea:-moz-placeholder {
+    color:#a9a9a9;
+}
+
+blockquote {
+    padding: 16px;
+    background: #eee;
+}
+
+h1 {font-size: 56px;}
+h2 {font-size: 48px;}
+h3 {font-size: 40px;}
+h4 {font-size: 32px;}
+h5 {font-size: 24px;}
+h6 {font-size: 16px;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; margin-bottom: 20px;}
+p, ul, ol { margin-bottom: 20px;}

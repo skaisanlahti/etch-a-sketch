@@ -1,0 +1,55 @@
+/*=== Imports ===
+=============================================================================*/
+@import "_fonts.scss";
+@import "_reset.scss";
+@import "_base.scss";
+
+/*=== Styles ===
+=============================================================================*/
+html, body {
+    background-color: hsl(200, 5%, 30%);
+    background-image: linear-gradient(hsl(200, 5%, 20%), hsl(200, 5%, 30%));
+}
+
+.eas-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    &__title {
+        color: hsl(200, 5%, 100%);
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        filter: drop-shadow(0px 5px 5px hsla(0,0%,0%,0.5));
+    }
+
+    &__content {
+        display: grid;
+        width: 90vw;
+        height: 70vh;
+        background-color: hsl(200, 0%, 100%);
+        border: 1px solid hsl(200, 5%, 80%);
+    }
+
+    &__buttons {
+        display: flex;
+    }
+
+    &__button {
+        padding: 5px 20px;
+        margin: 10px 10px 20px 10px;
+        border-radius: 10px;
+        font-size: 32px;
+    }
+}
+
+.eas-color-preview {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-color: black;
+    border: 1px solid hsl(0,0%,50%);
+}
