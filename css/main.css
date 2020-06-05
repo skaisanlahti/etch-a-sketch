@@ -435,6 +435,14 @@ html, body {
   font-size: 32px;
 }
 
+.eas-main__button:hover {
+  background-color: #bdc4db;
+}
+
+.eas-main__button:active {
+  background-color: #9ca7c9;
+}
+
 .eas-color-preview {
   display: inline-block;
   height: 24px;

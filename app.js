@@ -34,7 +34,7 @@ window.addEventListener("resize", createGrid);
 =============================================================================*/
 function setNewGrid(){
     gridResolution = prompt("Enter grid columns:");
-    if (gridResolution === "") gridResolution = gridDefault;
+    if (gridResolution === "" || gridResolution === null) gridResolution = gridDefault;
     createGrid();
 }
 function setColor(){
@@ -44,6 +44,8 @@ function setColor(){
         color = "black";
         colorPreview.style.backgroundColor = color;
     }
+    random = false;
+    randomButton.textContent = "Random: OFF";
 }
 function setRandom(){
     random = !random;

@@ -43,6 +43,14 @@ html, body {
         margin: 10px 10px 20px 10px;
         border-radius: 10px;
         font-size: 32px;
+
+        &:hover {
+            background-color: hsl(225,30%,80%);
+        }
+
+        &:active {
+            background-color: hsl(225,30%,70%);
+        }
     }
 }
 
