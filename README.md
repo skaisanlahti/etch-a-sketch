@@ -21,7 +21,6 @@
     <a href="https://skaisanlahti.github.io/etch-a-sketch/">View Demo</a>
     ·
     <a href="https://github.com/skaisanlahti/etch-a-sketch/issues">Report a Bug</a>
-    ·
   </p>
 </p>
 
